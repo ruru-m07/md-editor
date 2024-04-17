@@ -12,7 +12,7 @@ import {
 const Navbar = () => {
   return (
     <div className="w-full flex items-center justify-center fixed top-5 left-0 ">
-      <div className="h-14 border bg-primary-foreground/70 rounded-full flex items-center shadow-sm backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <div className="h-14 border bg-primary-foreground/70 rounded-full flex items-center shadow-sm">
         <div className="flex space-x-4 mx-2 justify-between items-center">
           <Image
             src={"/ruru.png"}
@@ -60,7 +60,7 @@ const Navbar = () => {
           </Link> */}
 
           {/* instagram link */}
-          <Link
+          {/* <Link
             href={"https://www.instagram.com/ruru.dev07"}
             target="_blank"
             className={cn(
@@ -72,10 +72,10 @@ const Navbar = () => {
             )}
           >
             <InstagramLogoIcon className="w-6 h-6" />
-          </Link>
+          </Link> */}
 
-          <div className="w-px bg-border h-8 " />
-          <Link
+          {/* <div className="w-px bg-border h-8 " /> */}
+          {/* <Link
             href={"https://www.instagram.com/ruru.dev07"}
             target="_blank"
             className={cn(
@@ -86,7 +86,7 @@ const Navbar = () => {
             )}
           >
             Say Hello! 👋
-          </Link>
+          </Link> */}
           <ModeToggle />
         </div>
       </div>

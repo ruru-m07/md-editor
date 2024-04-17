@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-primary-foreground/35 `}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
