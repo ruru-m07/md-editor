@@ -12,7 +12,7 @@
 
 - 😁 Emoji support: Express yourself with a wide range of emojis.
 - 📊 Tables: Organize your data into easy-to-read tables.
-- <h1> to <h6> Headings: Create clear and structured documents with headings.
+- `<h1>` to `<h6>` Headings: Create clear and structured documents with headings.
 - **Bold** and _italic_ formatting: Emphasize important text.
 - `code blocks` Code blocks: Display code snippets with syntax highlighting.
 - 💻 User-friendly UI: Enjoy a simple and intuitive interface that makes writing and editing Markdown a breeze.
